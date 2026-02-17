@@ -1,0 +1,68 @@
+Load dataset
+Clean data
+Visualize trends
+Prepare time-series features
+Train model
+Predict future values
+Interpret results
+
+/////////////////////////////////////////////
+✅ PART 1 — Exploratory Data Analysis (EDA)
+You analyze:
+
+Global consumption trend (2000–2025)
+Top 10 highest consuming countries
+Developed vs Developing comparison
+Climate zone comparison
+
+This shows:
+📊 Data understanding
+📈 Visualization skills
+////////////////////////////////////////////
+
+✅ PART 2 — Country Comparison Analysis
+
+You can answer questions like:
+
+Which country has fastest growth?
+
+Which region consumes most?
+
+Is consumption increasing every year?
+
+Are developed countries stabilizing?
+
+This shows:
+🌎 Real-world interpretation
+📑 Research thinking
+//////////////////////////////////////////
+✅ PART 3 — Forecasting Future Consumption (Main ML Part)
+
+Train model to predict:
+
+👉 2026–2030 water consumption
+
+Using:
+
+Linear Regression (simple baseline)
+
+Random Forest (better performance)
+
+This shows:
+🤖 Machine Learning
+📈 Time-series prediction
+////////////////////////////////////////////////
+
+🧾 Columns Description
+
+Country – Country name
+Year – Annual data from 2000 to 2025
+Total Water Consumption (Billion m3) – National water usage
+Per Capita Water Use (L/Day) – Daily per-person usage
+Water Scarcity Level – Low, Moderate, High, Critical
+Agricultural Water Use (%) – Share used in agriculture
+Industrial Water Use (%) – Share used in industry
+Household Water Use (%) – Domestic consumption share
+Rainfall Impact (mm) – Annual precipitation indicator
+Groundwater Depletion Rate (%) – Estimated aquifer stress
+Water Scarcity Level
