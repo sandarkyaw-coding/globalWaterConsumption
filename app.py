@@ -2,7 +2,8 @@ import streamlit as st
 import fun_water_quiz
 import home
 import prediction
-import saving_guide  # if you create a separate guide file
+import saving_guide
+import hydration_calculator
 
 st.set_page_config(page_title="Global Water Intelligence App", layout="wide")
 
@@ -34,8 +35,8 @@ st.markdown("""
 
 # Your existing menu code
 menu = st.sidebar.radio(
-    "Global Water Prediction",
-    ["Home", "Prediction Dashboard", "Water Saving Guide", "Quiz Time"]
+    "Global Water Consumption Prediction",
+    ["Home", "Prediction Dashboard", "Water Saving Guide", "Quiz Time", "Hydration Calculator"]
 )
 
 if menu == "Home":
@@ -46,3 +47,5 @@ elif menu == "Water Saving Guide":
     saving_guide.show()
 elif menu == "Quiz Time":
     fun_water_quiz.show()
+elif menu == "Hydration Calculator" :
+    hydration_calculator.show()
