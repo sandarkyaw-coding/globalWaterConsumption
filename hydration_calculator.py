@@ -127,7 +127,7 @@ def show():
         fig.update_layout(paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)', height=350)
         st.plotly_chart(fig, use_container_width=True)
 
-        st.info("Pro-Tip: Carry a reusable bottle to make hitting this goal easier!")
+        st.info("Pro-Tip: Carry a reusable bottle to make hitting this goal easier!  Sip consistently! Drinking a whole liter at once isn't as effective as steady hydration.")
 
 if __name__ == "__main__":
     show()
